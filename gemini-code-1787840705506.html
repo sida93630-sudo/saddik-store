@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saddik Hyundai Kia Suzuki | قطع غيار السيارات الآسيوية</title>
+    <!-- Tailwind CSS للتصميم السريع والمتجاوب -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#002B49',
+                        brandRed: '#D71920',
+                        accentBlue: '#005691',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Topbar -->
+    <header class="bg-brandBlue text-white sticky top-0 z-50 shadow-md">
+        <!-- الشريط العلوي للتواصل والموقع -->
+        <div class="bg-black/20 text-xs py-2 px-4 border-b border-white/10">
+            <div class="max-w-6xl mx-auto flex flex-wrap justify-between items-center gap-2">
+                <div class="flex items-center gap-4">
+                    <a href="tel:0771061313" class="hover:text-red-400 flex items-center gap-1 font-bold">
+                        <i class="fa-solid fa-phone text-brandRed"></i> 0771061313
+                    </a>
+                    <a href="mailto:saddiksid7@gmail.com" class="hover:text-red-400 flex items-center gap-1 hidden sm:flex">
+                        <i class="fa-solid fa-envelope text-brandRed"></i> saddiksid7@gmail.com
+                    </a>
+                    <a href="https://maps.app.goo.gl/5pH9cGwWqQraRPJK8" target="_blank" class="hover:text-red-400 flex items-center gap-1 text-yellow-400 font-bold">
+                        <i class="fa-solid fa-location-dot text-brandRed"></i> موقع المحل على الخريطة
+                    </a>
+                </div>
+                <div class="text-gray-300 hidden md:block">
+                    قطع غيار أصلية - Hyundai | Kia | Suzuki | Toyota
+                </div>
+            </div>
+        </div>
+
+        <!-- الهيدر الرئيسي -->
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div>
+                <h1 class="text-xl md:text-2xl font-extrabold tracking-wide text-white">
+                    Saddik <span class="text-brandRed">Auto Parts</span>
+                </h1>
+                <p class="text-xs text-blue-200">قطع غيار السيارات الآسيوية</p>
+            </div>
+            
+            <div class="flex items-center gap-2">
+                <a href="https://maps.app.goo.gl/5pH9cGwWqQraRPJK8" target="_blank" class="bg-white/10 hover:bg-white/20 text-white font-semibold py-2 px-3 rounded-lg flex items-center gap-1.5 transition text-xs sm:text-sm border border-white/20">
+                    <i class="fa-solid fa-map-location-dot text-brandRed"></i>
+                    <span class="hidden sm:inline">المرور عبر</span> الخريطة
+                </a>
+                <a href="https://wa.me/213771061313" target="_blank" class="bg-brandRed hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg flex items-center gap-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>اطلب الآن</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-brandBlue to-accentBlue text-white py-12 px-4 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto relative z-10">
+            <span class="bg-brandRed/20 text-red-200 border border-brandRed px-3 py-1 rounded-full text-xs font-semibold mb-4 inline-block">جودة عالية وضمان</span>
+            <h2 class="text-3xl md:text-5xl font-black mb-4 leading-tight">
+                قطع غيار أصلية لكل السيارات الآسيوية
+            </h2>
+            <p class="text-gray-200 text-sm md:text-base mb-6 max-w-2xl mx-auto">
+                متخصصون في توفير كافة قطع الغيار وملحقات السيارات لماركات هيونداي، كيا، سوزوكي، تويوتا وشيفروليه بأفضل الأسعار.
+            </p>
+            <div class="flex flex-wrap justify-center gap-3">
+                <a href="#products" class="bg-brandRed hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition shadow-lg">تصفح المنتجات</a>
+                <a href="https://maps.app.goo.gl/5pH9cGwWqQraRPJK8" target="_blank" class="bg-white text-brandBlue hover:bg-gray-100 font-bold py-3 px-6 rounded-lg transition flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-brandRed"></i>
+                    <span>اتجاهات الموقع</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories / Brands -->
+    <section class="py-8 bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-center font-bold text-gray-500 mb-6 text-sm uppercase tracking-wider">العلامات التجارية المدعومة</h3>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 text-center font-bold text-brandBlue">
+                <div class="p-3 border rounded-lg hover:border-brandRed transition bg-gray-50">HYUNDAI</div>
+                <div class="p-3 border rounded-lg hover:border-brandRed transition bg-gray-50">KIA</div>
+                <div class="p-3 border rounded-lg hover:border-brandRed transition bg-gray-50">SUZUKI</div>
+                <div class="p-3 border rounded-lg hover:border-brandRed transition bg-gray-50">TOYOTA</div>
+                <div class="p-3 border rounded-lg hover:border-brandRed transition bg-gray-50">CHEVROLET</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Showcase -->
+    <section id="products" class="py-12 max-w-6xl mx-auto px-4">
+        <div class="flex justify-between items-end mb-8">
+            <div>
+                <h3 class="text-2xl font-bold text-brandBlue">أحدث المنتجات والملحقات</h3>
+                <p class="text-gray-500 text-sm">عينة من المنتجات المتوفرة لدى المحل</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            
+            <!-- Product Card 1 -->
+            <div class="bg-white border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="h-48 bg-gray-100 flex items-center justify-center relative">
+                    <span class="absolute top-2 right-2 bg-brandRed text-white text-xs px-2 py-1 rounded">Toyota Original</span>
+                    <i class="fa-solid fa-compress text-6xl text-gray-300"></i>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-brandBlue mb-1">منفاخ هواء إطارات تويوتا الأصلي</h4>
+                    <p class="text-xs text-gray-500 mb-3">ملحق طوارئ محمول ذو جودة عالية يعمل على ولاعة السيارة.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-extrabold text-brandRed">اتصل لمعرفة السعر</span>
+                        <a href="tel:0771061313" class="bg-brandBlue text-white p-2 rounded-lg hover:bg-accentBlue transition text-sm">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="h-48 bg-gray-100 flex items-center justify-center relative">
+                    <span class="absolute top-2 right-2 bg-brandBlue text-white text-xs px-2 py-1 rounded">Hyundai / Kia</span>
+                    <i class="fa-solid fa-car-battery text-6xl text-gray-300"></i>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-brandBlue mb-1">قطع غيار المحرك والصيانة</h4>
+                    <p class="text-xs text-gray-500 mb-3">فلاتر، سيرات، بوجيهات لسيارات Hyundai i20 و Kia Sportage.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-extrabold text-brandRed">حسب نوع السيارة</span>
+                        <a href="tel:0771061313" class="bg-brandBlue text-white p-2 rounded-lg hover:bg-accentBlue transition text-sm">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="bg-white border rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+                <div class="h-48 bg-gray-100 flex items-center justify-center relative">
+                    <span class="absolute top-2 right-2 bg-brandRed text-white text-xs px-2 py-1 rounded">Suzuki</span>
+                    <i class="fa-solid fa-gears text-6xl text-gray-300"></i>
+                </div>
+                <div class="p-4">
+                    <h4 class="font-bold text-lg text-brandBlue mb-1">أنظمة الفرامل والتعليق</h4>
+                    <p class="text-xs text-gray-500 mb-3">صفائح الفرامل (Plaquette de frein) والمساعدين لمختلف الفئات.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-extrabold text-brandRed">متوفر بجميع الأنواع</span>
+                        <a href="tel:0771061313" class="bg-brandBlue text-white p-2 rounded-lg hover:bg-accentBlue transition text-sm">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Map & Order Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            
+            <!-- Map Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border">
+                <h3 class="text-xl font-bold text-brandBlue mb-2 flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-brandRed"></i>
+                    موقع المحل على الخريطة
+                </h3>
+                <p class="text-gray-500 text-sm mb-4">العلمة، الجزائر - تفضل بزيارتنا لشراء قطع الغيار مباشرة.</p>
+                
+                <div class="bg-gray-100 rounded-xl p-6 text-center border-2 border-dashed border-gray-300 mb-4">
+                    <i class="fa-solid fa-map-marked-alt text-5xl text-brandBlue mb-3"></i>
+                    <p class="font-bold text-gray-700 mb-2">Saddik Hyundai Kia Suzuki</p>
+                    <p class="text-xs text-gray-500 mb-4">انقر على الزر أدناه لفتح موقعنا مباشرة عبر تطبيق خرائط قوقل</p>
+                    <a href="https://maps.app.goo.gl/5pH9cGwWqQraRPJK8" target="_blank" class="inline-flex items-center gap-2 bg-brandBlue hover:bg-accentBlue text-white font-bold py-2.5 px-5 rounded-lg transition text-sm">
+                        <i class="fa-solid fa-diamond-turn-right text-brandRed"></i>
+                        فتح في خرائط Google
+                    </a>
+                </div>
+
+                <div class="text-xs text-gray-600 space-y-2">
+                    <p><i class="fa-solid fa-clock text-brandRed ml-1"></i> <strong>أوقات العمل:</strong> السبت - الخميس (08:00 صباحاً - 05:00 مساءً)</p>
+                    <p><i class="fa-solid fa-phone text-brandRed ml-1"></i> <strong>الهاتف:</strong> 0771061313</p>
+                </div>
+            </div>
+
+            <!-- Order Form -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border">
+                <h3 class="text-xl font-bold text-brandBlue mb-2 text-center">طلب قطعة غيار خاصة</h3>
+                <p class="text-gray-500 text-center text-sm mb-6">أرسل لنا تفاصيل سيارتك والقطعة وسنتواصل معك فوراً</p>
+
+                <form action="mailto:saddiksid7@gmail.com" method="post" enctype="text/plain" class="space-y-4">
+                    <div>
+                        <label class="block text-xs font-bold mb-1">الاسم الكامل</label>
+                        <input type="text" name="Name" required class="w-full border rounded-lg p-2.5 text-sm focus:outline-none focus:border-brandBlue">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold mb-1">رقم الهاتف</label>
+                        <input type="tel" name="Phone" required class="w-full border rounded-lg p-2.5 text-sm focus:outline-none focus:border-brandBlue">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold mb-1">نوع السيارة وموديل السنة</label>
+                        <input type="text" name="Car_Model" placeholder="مثال: Hyundai i20 موديل 2018" required class="w-full border rounded-lg p-2.5 text-sm focus:outline-none focus:border-brandBlue">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold mb-1">اسم القطعة المطلوبة</label>
+                        <textarea name="Part_Details" rows="3" required class="w-full border rounded-lg p-2.5 text-sm focus:outline-none focus:border-brandBlue"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-brandRed hover:bg-red-700 text-white font-bold py-3 rounded-lg transition">إرسال الطلب عبر البريد</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brandBlue text-white py-8 border-t-4 border-brandRed">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-right">
+            <div>
+                <h4 class="font-extrabold text-lg">Saddik Auto Parts</h4>
+                <p class="text-xs text-gray-300">بيع قطع غيار السيارات الآسيوية - خدمات سريعة وأسعار تنافسية.</p>
+            </div>
+            <div class="text-sm space-y-1">
+                <p><i class="fa-solid fa-phone text-brandRed ml-1"></i> 0771061313</p>
+                <p><i class="fa-solid fa-envelope text-brandRed ml-1"></i> saddiksid7@gmail.com</p>
+                <p><a href="https://maps.app.goo.gl/5pH9cGwWqQraRPJK8" target="_blank" class="hover:underline text-yellow-400"><i class="fa-solid fa-map-pin text-brandRed ml-1"></i> العلمة، الجزائر (عرض الخريطة)</a></p>
+            </div>
+        </div>
+        <div class="text-center text-xs text-gray-400 mt-6 pt-4 border-t border-white/10">
+            جميع الحقوق محفوظة © 2026 - Saddik Hyundai Kia Suzuki
+        </div>
+    </footer>
+
+</body>
+</html>
